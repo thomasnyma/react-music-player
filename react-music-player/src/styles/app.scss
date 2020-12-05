@@ -4,5 +4,23 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3 {
+  color: rgb(70, 70, 70);
+}
+
+h3,
+h4 {
+  font-weight: 400;
+  color: rgb(100, 100, 100);
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
 @import "./song";
 @import "./player";
+@import "./library";
+@import "./navigation";
